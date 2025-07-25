@@ -4,12 +4,12 @@ import cors from 'cors';
 import connectDB from './config/db.js';
 
 // Website-related routes
-import applicationRoutes from './routes/website/Application.js';
-import tourRoutes from './routes/website/Tour.js';
-import newsletterRoutes from './routes/website/Newsletter.js';
-import contactRoutes from './routes/website/Contact.js';
-import adminRoutes from './routes/website/Admin.js';
-import eventRoutes from './routes/website/Event.js';
+import applicationRoutes from './routes/Application.js';
+import tourRoutes from './routes/Tour.js';
+import newsletterRoutes from './routes/Newsletter.js';
+import contactRoutes from './routes/Contact.js';
+import adminRoutes from './routes/Admin.js';
+import eventRoutes from './routes/Event.js';
 
 
 dotenv.config();
