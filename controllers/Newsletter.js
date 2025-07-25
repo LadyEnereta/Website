@@ -1,4 +1,4 @@
-import Newsletter from '../../models/website/Newsletter.js';
+import Newsletter from '../models/Newsletter.js';
 
 export const subscribe = async (req, res) => {
   try {

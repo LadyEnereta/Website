@@ -1,4 +1,4 @@
-import Application from '../../models/website/Application.js';
+import Application from '../models/Application.js';
 
 // Create application
 export const createApplication = async (req, res) => {

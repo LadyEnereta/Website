@@ -11,12 +11,6 @@ import contactRoutes from './routes/website/Contact.js';
 import adminRoutes from './routes/website/Admin.js';
 import eventRoutes from './routes/website/Event.js';
 
-// Sports calendar-related routes
-import fixtureRoutes from './routes/sports/Fixture.js';
-import authRoutes from './routes/sports/auth.js';
-import sportTypeRoutes from './routes/sports/sportType.js';
-import resultRoutes from './routes/sports/Result.js';
-import academicRoutes from './routes/sports/Academic.js';
 
 dotenv.config();
 connectDB();
