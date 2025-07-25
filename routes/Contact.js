@@ -4,7 +4,7 @@ import {
   submitContactForm,
   getAllMessages,
   deleteMessage
-} from "../../controllers/website/Contact.js";
+} from "../../controllers/Contact.js";
 
 const router = express.Router();
 
