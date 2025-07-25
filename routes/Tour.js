@@ -3,7 +3,7 @@ import {
   createTourBooking,
   getTourBookings,
   deleteTourBooking
-} from '../../controllers/Tour.js';
+} from '../controllers/Tour.js';
 
 const router = express.Router();
 
