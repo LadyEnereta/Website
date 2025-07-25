@@ -27,12 +27,6 @@ app.use('/api/contact', contactRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/events', eventRoutes);
 
-// Sports routes
-app.use('/api/fixtures', fixtureRoutes);
-app.use('/api/auth', authRoutes);
-app.use('/api/sport-types', sportTypeRoutes);
-app.use('/api/results', resultRoutes);
-app.use('/api/academic', academicRoutes);
 
 
 // Start server
