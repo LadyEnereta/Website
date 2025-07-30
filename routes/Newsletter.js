@@ -1,5 +1,5 @@
 import express from 'express';
-import { subscribe, getAllSubscribers, deleteSubscriber } from '../controllers/Newsletter';
+import { subscribe, getAllSubscribers, deleteSubscriber } from '../controllers/Newsletter.js';
 
 const router = express.Router();
 

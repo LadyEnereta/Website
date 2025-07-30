@@ -34,7 +34,7 @@ export const deleteSubscriber = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const deleted = await Subscriber.findByIdAndDelete(id); // assuming Mongoose
+    const deleted = await Newsletter.findByIdAndDelete(id); // assuming Mongoose
     if (!deleted) {
       return res.status(404).json({ message: "Subscriber not found" });
     }
