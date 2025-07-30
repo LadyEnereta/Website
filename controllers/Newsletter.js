@@ -29,3 +29,18 @@ export const getAllSubscribers = async (req, res) => {
     res.status(500).json({ error: err.message || "Server error" });
   }
 };
+
+export const deleteSubscriber = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const deleted = await Subscriber.findByIdAndDelete(id); // assuming Mongoose
+    if (!deleted) {
+      return res.status(404).json({ message: "Subscriber not found" });
+    }
+
+    res.status(200).json({ message: "Subscriber deleted successfully" });
+  } catch (error) {
+    res.status(500).json({ message: "Error deleting subscriber", error });
+  }
+};
